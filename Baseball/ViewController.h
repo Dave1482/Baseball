@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    int plusCounter;
+    UIButton *addPointHome;
+    UILabel *plusLabel;
+}
 
 @end
 
